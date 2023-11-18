@@ -8,8 +8,8 @@ sudo ufw allow OpenSSH
 
 sudo ufw allow 8080/tcp
 
-sudo ufw allow 'Nginx HTTP'
-sudo ufw allow 'Nginx Full'
+sudo ufw allow 80/tcp
+sudo ufw allow 443/tcp
 
 sudo ufw default deny incoming
 sudo ufw default allow outgoing
